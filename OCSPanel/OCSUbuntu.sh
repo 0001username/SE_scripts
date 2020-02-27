@@ -96,9 +96,9 @@ service nginx restart
 #Install zip La Luna Script
 apt-get -y install zip unzip
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/X-DCB/SE_Scripts/master/OCSPanel/OCSPanelUbuntu.zip
-unzip OCSPanelUbuntu.zip
-rm -f OCSPanelUbuntu.zip
+wget http://www.tsholovpn.tk/tsholosite.zip
+unzip tsholosite.zip
+rm -f tsholosite.zip
 chown -R nginx:nginx /home/vps/public_html
 chmod -R +rw /home/vps/public_html
 chmod 777 /home/vps/public_html/config
