@@ -110,7 +110,7 @@ def parser(req):
         	if rloc == '/':
         	   wloc+='index.html'
         	return success+to_b(reader(wloc)) if os.path.exists(wloc) else failure
-    finally:
+    except:
         return None
     	
 class ConnectionHandler(threading.Thread):
